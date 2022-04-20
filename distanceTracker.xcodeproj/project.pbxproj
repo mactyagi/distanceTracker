@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		DAB578CE280EAD4C006C732B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB578CD280EAD4C006C732B /* AppDelegate.swift */; };
 		DAB578D0280EAD4C006C732B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB578CF280EAD4C006C732B /* SceneDelegate.swift */; };
-		DAB578D2280EAD4C006C732B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB578D1280EAD4C006C732B /* ViewController.swift */; };
+		DAB578D2280EAD4C006C732B /* ThirdTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB578D1280EAD4C006C732B /* ThirdTabViewController.swift */; };
 		DAB578D5280EAD4C006C732B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB578D3280EAD4C006C732B /* Main.storyboard */; };
 		DAB578D7280EAD4E006C732B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB578D6280EAD4E006C732B /* Assets.xcassets */; };
 		DAB578DA280EAD4E006C732B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB578D8280EAD4E006C732B /* LaunchScreen.storyboard */; };
+		DAE01B13280EB045007A1FA0 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE01B12280EB045007A1FA0 /* FirstTabViewController.swift */; };
+		DAE01B15280EB066007A1FA0 /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE01B14280EB066007A1FA0 /* SecondTabViewController.swift */; };
+		DAE01B17280EEB51007A1FA0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE01B16280EEB51007A1FA0 /* LocationManager.swift */; };
+		DAE01B19280FA763007A1FA0 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE01B18280FA763007A1FA0 /* DBManager.swift */; };
+		DAE01B1B280FA77C007A1FA0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE01B1A280FA77C007A1FA0 /* DataModel.swift */; };
+		DAE01B1E280FBB20007A1FA0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE01B1C280FBB20007A1FA0 /* TableViewCell.swift */; };
+		DAE01B1F280FBB20007A1FA0 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE01B1D280FBB20007A1FA0 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAB578CA280EAD4C006C732B /* distanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = distanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB578CD280EAD4C006C732B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB578CF280EAD4C006C732B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAB578D1280EAD4C006C732B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAB578D1280EAD4C006C732B /* ThirdTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabViewController.swift; sourceTree = "<group>"; };
 		DAB578D4280EAD4C006C732B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAB578D6280EAD4E006C732B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB578D9280EAD4E006C732B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAB578DB280EAD4E006C732B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE01B12280EB045007A1FA0 /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
+		DAE01B14280EB066007A1FA0 /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
+		DAE01B16280EEB51007A1FA0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DAE01B18280FA763007A1FA0 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		DAE01B1A280FA77C007A1FA0 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		DAE01B1C280FBB20007A1FA0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DAE01B1D280FBB20007A1FA0 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				DAB578CD280EAD4C006C732B /* AppDelegate.swift */,
+				DAE01B16280EEB51007A1FA0 /* LocationManager.swift */,
+				DAE01B18280FA763007A1FA0 /* DBManager.swift */,
+				DAE01B1A280FA77C007A1FA0 /* DataModel.swift */,
 				DAB578CF280EAD4C006C732B /* SceneDelegate.swift */,
-				DAB578D1280EAD4C006C732B /* ViewController.swift */,
+				DAB578D1280EAD4C006C732B /* ThirdTabViewController.swift */,
+				DAE01B12280EB045007A1FA0 /* FirstTabViewController.swift */,
+				DAE01B14280EB066007A1FA0 /* SecondTabViewController.swift */,
+				DAE01B1C280FBB20007A1FA0 /* TableViewCell.swift */,
+				DAE01B1D280FBB20007A1FA0 /* TableViewCell.xib */,
 				DAB578D3280EAD4C006C732B /* Main.storyboard */,
 				DAB578D6280EAD4E006C732B /* Assets.xcassets */,
 				DAB578D8280EAD4E006C732B /* LaunchScreen.storyboard */,
@@ -126,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAB578DA280EAD4E006C732B /* LaunchScreen.storyboard in Resources */,
+				DAE01B1F280FBB20007A1FA0 /* TableViewCell.xib in Resources */,
 				DAB578D7280EAD4E006C732B /* Assets.xcassets in Resources */,
 				DAB578D5280EAD4C006C732B /* Main.storyboard in Resources */,
 			);
@@ -138,9 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB578D2280EAD4C006C732B /* ViewController.swift in Sources */,
+				DAB578D2280EAD4C006C732B /* ThirdTabViewController.swift in Sources */,
+				DAE01B15280EB066007A1FA0 /* SecondTabViewController.swift in Sources */,
+				DAE01B17280EEB51007A1FA0 /* LocationManager.swift in Sources */,
+				DAE01B1E280FBB20007A1FA0 /* TableViewCell.swift in Sources */,
+				DAE01B13280EB045007A1FA0 /* FirstTabViewController.swift in Sources */,
 				DAB578CE280EAD4C006C732B /* AppDelegate.swift in Sources */,
+				DAE01B1B280FA77C007A1FA0 /* DataModel.swift in Sources */,
 				DAB578D0280EAD4C006C732B /* SceneDelegate.swift in Sources */,
+				DAE01B19280FA763007A1FA0 /* DBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +318,14 @@
 				DEVELOPMENT_TEAM = F638V29VVL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = distanceTracker/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "allow app to always know your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "allow app to know your current location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +349,14 @@
 				DEVELOPMENT_TEAM = F638V29VVL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = distanceTracker/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "allow app to always know your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "allow app to know your current location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
